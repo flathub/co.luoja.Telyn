@@ -3,11 +3,6 @@ runtime: org.gnome.Platform
 runtime-version: '41'
 sdk: org.gnome.Sdk
 command: TelynGtk
-<<<<<<< HEAD
-cleanup:
-  - swift-5.5-RELEASE-ubuntu20.04
-=======
->>>>>>> 4eeef3cb76160332591c1952cd6dad9e11b3661a
 finish-args:
   - --share=ipc
   - --socket=fallback-x11
