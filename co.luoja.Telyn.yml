@@ -26,8 +26,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://gitlab.com/t2056/telyngtk/-/jobs/1805280681/artifacts/raw/TelynGtk-Release.tar.gz
-        sha256: bbc19d8cbaf27cb2bad0f54c6660567700f9f6fa21344078d01870f10a318584
+        url: https://gitlab.com/t2056/telyngtk/-/jobs/1808265090/artifacts/raw/TelynGtk-Release.tar.gz
+        sha256: 840274f25cc8b0ec215af00bb547d77f5f65e2281fe40b98c85f4388eb6daeea
     build-commands:
       - mkdir /app/bin
       - cp TelynGtk /app/bin/
@@ -37,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/t2056/telyngtk.git
-        tag: 1.0.3     
-        commit: 98210f26ffa9f1c22bb3b9d4da42290f3170f8d3
+        tag: 1.0.6
+        commit: aa34d3f022523f6a41e3a82ed4d8914f63d0857f
     build-commands:
       - install -D co.luoja.Telyn.desktop /app/share/applications/co.luoja.Telyn.desktop
       - install -D co.luoja.Telyn.svg /app/share/icons/hicolor/scalable/apps/co.luoja.Telyn.svg
