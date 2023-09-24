@@ -1,6 +1,6 @@
 app-id: co.luoja.Telyn
 runtime: org.gnome.Platform
-runtime-version: '41'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 command: TelynGtk
 finish-args:
@@ -44,4 +44,4 @@ modules:
       - install -D co.luoja.Telyn.svg /app/share/icons/hicolor/scalable/apps/co.luoja.Telyn.svg
       - install -D co.luoja.Telyn-symbolic.svg /app/share/icons/hicolor/scalable/apps/co.luoja.Telyn-symbolic.svg
       - install -D co.luoja.Telyn.appdata.xml /app/share/metainfo/co.luoja.Telyn.appdata.xml
-      
+
