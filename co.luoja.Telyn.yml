@@ -9,8 +9,6 @@ finish-args:
   - --socket=wayland
   - --filesystem=xdg-documents
   - --filesystem=xdg-download
-skip-arches:
-  - aarch64
 modules:
   - name: swift-lib
     buildsystem: simple
